@@ -85,5 +85,16 @@ export const RESUME_DATA = {
   
 } as const;
 
+// Verificamos si RESUME_DATA.work es null antes de hacer el mapeo
+{RESUME_DATA.work && RESUME_DATA.work.map((work) => {
+  return (
+    <Card key={work.company}>
+      <CardHeader>
+        {/* Resto del código de la tarjeta */}
+      </CardHeader>
+    </Card>
+  );
+})}
+
 
 
