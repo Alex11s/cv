@@ -29,9 +29,10 @@ export const RESUME_DATA = {
   summary:
     "Comencé mis estudios en el año 2020 y me recibí en 2023 de Analista Universitario en Sistemas de Computación, durante mi trayectoria académica aprendí de forma autodidacta muchas habilidades, comenzando por la edición de imágenes y finalizando en la programación web, lo que me dio una gran base en lógica y creatividad.",
   avatarUrl: "https://pbs.twimg.com/profile_images/1761210809470889984/AGBeHD2v_400x400.jpg",
-  personalWebsiteUrl: "https://portfoliofloresgaston.vercel.app/",
+  personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "floresgaston248@gmail.com",
+    email: "bartosz.jarocki@hey.com",
+    tel: "+48530213401",
     social: [
       {
         name: "GitHub",
@@ -117,7 +118,7 @@ export const RESUME_DATA = {
       ],
       description: "Portafolio usando HTML y CSS",
       link: {
-        label: "portfoliofloresgaston.vercel.app",
+        label: "",
         href: "https://portfoliofloresgaston.vercel.app/",
       },
     },
