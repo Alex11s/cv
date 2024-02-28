@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://pbs.twimg.com/profile_images/1761210809470889984/AGBeHD2v_400x400.jpg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "floresgaston248@gmail.com",
+    email: "bartosz.jarocki@hey.com",
     tel: null,
     social: [
       {
@@ -59,7 +59,19 @@ export const RESUME_DATA = {
       end: "2023",
     },
   ],
-  work: null,
+  work: [
+    {
+      company: "Parabol",
+      link: "https://parabol.co",
+      badges: ["Remote"],
+      title: "Senior Full Stack Developer",
+      logo: ParabolLogo,
+      start: "2021",
+      end: "2024",
+      description:
+        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+    },
+  ],
   skills: [
     "JavaScript",
     "Photoshop",
