@@ -64,6 +64,7 @@ export const RESUME_DATA = {
     "Photoshop",
     "Visual Studio Code",
   ],
+  work: null,
   projects: [
     {
       title: "Flores Gastón Portafolio",
@@ -78,4 +79,12 @@ export const RESUME_DATA = {
       },
     },
   ],
+
+  
+  
 } as const;
+
+// Verifica que work no sea null o undefined antes de hacer el map
+const workExperience = Array.isArray(RESUME_DATA.work) ? RESUME_DATA.work : [];
+
+
