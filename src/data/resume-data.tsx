@@ -59,7 +59,6 @@ export const RESUME_DATA = {
       end: "2023",
     },
   ],
-  work: null,
   skills: [
     "JavaScript",
     "Photoshop",
