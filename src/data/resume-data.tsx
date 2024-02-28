@@ -60,7 +60,7 @@ export const RESUME_DATA = {
     },
   ],
   work: [
-    /*{
+    {
       company: "Parabol",
       link: "https://parabol.co",
       badges: ["Remote"],
@@ -71,7 +71,6 @@ export const RESUME_DATA = {
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
     },
-    */
   ],
   skills: [
     "JavaScript",
