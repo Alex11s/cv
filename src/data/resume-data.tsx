@@ -29,7 +29,7 @@ export const RESUME_DATA = {
   summary:
     "Comencé mis estudios en el año 2020 y me recibí en 2023 de Analista Universitario en Sistemas de Computación, durante mi trayectoria académica aprendí de forma autodidacta muchas habilidades, comenzando por la edición de imágenes y finalizando en la programación web, lo que me dio una gran base en lógica y creatividad.",
   avatarUrl: "https://pbs.twimg.com/profile_images/1761210809470889984/AGBeHD2v_400x400.jpg",
-  personalWebsiteUrl: "https://jarocki.me",
+  personalWebsiteUrl: "https://portfoliofloresgaston.vercel.app/",
   contact: {
     email: "floresgaston248@gmail.com",
     tel: null,
@@ -41,7 +41,7 @@ export const RESUME_DATA = {
       },
       {
         name: "LindkedIn",
-        url: "www.linkedin.com/in/floresgaston",
+        url: "https://www.linkedin.com/in/floresgaston",
         icon: LinkedInIcon,
       },
       {
@@ -58,6 +58,12 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2023",
     },
+    {
+      school: "Udemy",
+      degree: " FrontEnd Web Developer",
+      start: "2022",
+      end: "2022",
+    },
   ],
 
   skills: [
@@ -72,10 +78,22 @@ export const RESUME_DATA = {
         "HTML",
         "CSS",
       ],
-      description: "Portafolio usando HTML y CSS",
+      description: "Portafolio con HTML y CSS",
       link: {
         label: "",
         href: "https://portfoliofloresgaston.vercel.app/",
+      },
+    },
+    {
+      title: "ImaginePet",
+      techStack: [
+        "HTML",
+        "CSS",
+      ],
+      description: "Login page con HTML y CSS",
+      link: {
+        label: "",
+        href: "https://alex11s.github.io/ImaginePet/",
       },
     },
   ],
